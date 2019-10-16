@@ -10,6 +10,7 @@ use SmppAddress;
 use SmppClient;
 use SmppException;
 use SocketTransport;
+use Illuminate\Support\Arr;
 
 /**
  * SMPP implementation of the SMS sending service.
